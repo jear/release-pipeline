@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: docker-jenkins-ctr
-        image: account_id/docker-jenkins:latest
+        image: jear/docker-jenkins:latest
         ports:
         - containerPort: 80
 ---
